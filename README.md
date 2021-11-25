@@ -9,7 +9,5 @@ _**Bu bot, gruplarda 10.000'e kadar üyeden bahsedebilir ve kanallarda 200'e kad
 ### 🚀 Deploy to heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Iregullar/TAGGER.git)
 
-### 🎯 Krediler ve Diğer
-- [Ben](https://github.com/newname58q) bu Proje için ;)
 
 **Beni Github'dan takip etmeyi unutmayın ✌️**
