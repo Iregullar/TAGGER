@@ -25,7 +25,7 @@ async def cancel(event):
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("[ᴇxᴛʀᴇᴍᴇ & ʜüᴋüᴍꜱüᴢʟᴇʀ ʙᴏᴛ], **Federasyonlarının Kanal Grup Bot Bilgilendirme Botudur.** /Grup /Kanal /Bot Komutlarını Kullanabilirsiniz.",
+  await event.reply("[ᴇxᴛʀᴇᴍᴇ & ʜüᴋüᴍꜱüᴢʟᴇʀ ʙᴏᴛ], **Federasyonlarının Kanal Grup Bot Bilgilendirme Botudur.** /grup /kanal /bot **Komutlarını Kullanabilirsiniz.**",
                     buttons=(
                       [Button.url('😎 ᴇxᴛʀᴇᴍᴇ ꜱᴀʜɪᴘ', 'https://t.me/Pukele_ka'),
                       Button.url('😎 ʜüᴋüᴍꜱüᴢʟᴇʀ ꜱᴀʜɪᴘ', 'https://t.me/Hukumsuzlersahibi')],
@@ -36,21 +36,24 @@ async def start(event):
                    )
 @client.on(events.NewMessage(pattern="^/kanal$"))
 async def help(event):
-  helptext = "[ᴇxᴛʀᴇᴍᴇ & ʜüᴋüᴍꜱüᴢʟᴇʀ ʙᴏᴛ], **Federasyonlarının Kanalları.**"
+  helptext = "[ᴇxᴛʀᴇᴍᴇ & ʜüᴋüᴍꜱüᴢʟᴇʀ ʙᴏᴛ], **Federasyonlarının Kanallarıdır.**"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('🌟 𝙱𝚎𝚗𝚒 𝙱𝚒𝚛 𝙶𝚛𝚞𝚋𝚊 𝙴𝚔𝚕𝚎', 'https://t.me/ExtraTaGGerbot?startgroup=a'),
-                      Button.url('📣 𝙺𝚊𝚗𝚊𝚕', 'https://t.me/Extremekanallar'),
-                      Button.url('🚀 𝚂𝚊𝚑𝚒𝚋𝚒𝚖', 'https://t.me/OrmanCocuklariylaMucadele')]
+                      [Button.url('🔥 ᴇxᴛʀᴇᴍᴇ ꜰᴇᴅ', 'https://t.me/Extremekanallar'),
+                      Button.url('⚔️ ᴇxᴛʀᴇᴍᴇ ʟɪɴᴋ ', 'https://t.me/ExtremeUcretliLink'),
+                      Button.url('💪 ᴇxᴛʀᴇᴍᴇ İᴄʀᴀᴀᴛ', 'https://t.me/OrmanCocuklariylaMucadele')]
+                      [Button.url('💠 ʀᴇᴋʟᴀᴍ ᴋᴀɴᴀʟı', 'https://t.me/Platformreklam'),
+                      Button.url('🎭 ʀᴇꜱɪᴍ ᴋᴀɴᴀʟı ', 'https://t.me/picttureprofil'),
+                      Button.url('🛡 ʙᴏᴛ ᴋᴀɴᴀʟı', 'https://t.me/sohbetdestek')]
                     ),
                     link_preview=False
                    )
 @client.on(events.NewMessage(pattern="^/grup$"))
 async def help(event):
-  helptext = "[ᴇxᴛʀᴇᴍᴇ & ʜüᴋüᴍꜱüᴢʟᴇʀ ʙᴏᴛ], **Federasyonlarının Kanalları.**"
+  helptext = "[ᴇxᴛʀᴇᴍᴇ & ʜüᴋüᴍꜱüᴢʟᴇʀ ʙᴏᴛ], **Federasyonlarının Gruplarıdır.**"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('🌟 𝙱𝚎𝚗𝚒 𝙱𝚒𝚛 𝙶𝚛𝚞𝚋𝚊 𝙴𝚔𝚕𝚎', 'https://t.me/ExtraTaGGerbot?startgroup=a'),
+                      [Button.url('🔥 ᴇxᴛʀᴇᴍᴇ ꜱᴏʜʙᴇᴛ', 'https://t.me/ExtremeSohbett'),
                       Button.url('📣 𝙺𝚊𝚗𝚊𝚕', 'https://t.me/Extremekanallar'),
                       Button.url('🚀 𝚂𝚊𝚑𝚒𝚋𝚒𝚖', 'https://t.me/OrmanCocuklariylaMucadele')]
                     ),
@@ -58,18 +61,21 @@ async def help(event):
                    )
 @client.on(events.NewMessage(pattern="^/bot$"))
 async def help(event):
-  helptext = "[ᴇxᴛʀᴇᴍᴇ & ʜüᴋüᴍꜱüᴢʟᴇʀ ʙᴏᴛ], **Federasyonlarının Kanalları.**"
+  helptext = "[ᴇxᴛʀᴇᴍᴇ & ʜüᴋüᴍꜱüᴢʟᴇʀ ʙᴏᴛ], **Federasyonlarının Botlarıdır.**"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('🌟 𝙱𝚎𝚗𝚒 𝙱𝚒𝚛 𝙶𝚛𝚞𝚋𝚊 𝙴𝚔𝚕𝚎', 'https://t.me/ExtraTaGGerbot?startgroup=a'),
-                      Button.url('📣 𝙺𝚊𝚗𝚊𝚕', 'https://t.me/Extremekanallar'),
-                      Button.url('🚀 𝚂𝚊𝚑𝚒𝚋𝚒𝚖', 'https://t.me/OrmanCocuklariylaMucadele')]
+                      [Button.url('🎶 ᴍüᴢɪᴋ + ꜰɪʟᴍ ʙᴏᴛ', 'https://t.me/Winampmuzikbot'),
+                      Button.url('⚙️ ꜱᴇꜱꜱɪᴏɴ ʙᴏᴛ', 'https://t.me/Session_TR_bot'),
+                      Button.url('🎭 ᴇᴛɪᴋᴇᴛ ʙᴏᴛ', 'https://t.me/UserEtiketBot')]
+                      [Button.url('🎶 ᴍüᴢɪᴋ + ꜰɪʟᴍ 2', 'https://t.me/Movingmusicbot'),
+                      Button.url('🛡 ғᴇᴅ ʙɪʟɢɪ ʙᴏᴛ', 'https://t.me/ExtremeHukumsuzlerFedBot'),
+                      Button.url('🎭 ᴇᴛɪᴋᴇᴛ ʙᴏᴛ', 'https://t.me/LinaTagBot')]
                     ),
                     link_preview=False
                    )
 
 
-@client.on(events.NewMessage(pattern="^/all ?(.*)"))
+@client.on(events.NewMessage(pattern="^/allllllllllll ?(.*)"))
 async def mentionall(event):
   global anlik_calisan
   if event.is_private:
