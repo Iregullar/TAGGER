@@ -27,9 +27,10 @@ async def cancel(event):
 async def start(event):
   await event.reply("[ᴇxᴛʀᴇᴍᴇ & ʜüᴋüᴍꜱüᴢʟᴇʀ ʙᴏᴛ], **Federasyonlarının Kanal Grup Bot Bilgilendirme Botudur.** /Grup /Kanal /Bot Komutlarını Kullanabilirsiniz.",
                     buttons=(
-                      [Button.url('🌟 𝙱𝚎𝚗𝚒 𝙱𝚒𝚛 𝙶𝚛𝚞𝚋𝚊 𝙴𝚔𝚕𝚎', 'https://t.me/ExtraTaGGerbot?startgroup=a'),
-                      Button.url('📣 𝙺𝚊𝚗𝚊𝚕', 'https://t.me/Extremekanallar'),
-                      Button.url('🚀 𝚂𝚊𝚑𝚒𝚋𝚒𝚖', 'https://t.me/OrmanCocuklariylaMucadele')]
+                      [Button.url('😎 ᴇxᴛʀᴇᴍᴇ ꜱᴀʜɪᴘ', 'https://t.me/Pukele_ka'),
+                      Button.url('😎 ʜüᴋüᴍꜱüᴢʟᴇʀ ꜱᴀʜɪᴘ', 'https://t.me/Hukumsuzlersahibi')],
+                      [Button.url('💻 ɢɪᴛʜᴜʙ', 'https://github.com/Iregullar'),
+                       Button.url('📍ɪɴꜱᴛᴀɢʀᴀᴍ', 'https://instagram.com/antolojiedebiyat?utm_medium=copy_link')]
                     ),
                     link_preview=False
                    )
