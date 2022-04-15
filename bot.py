@@ -25,7 +25,7 @@ async def cancel(event):
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("**𝐄𝐱𝐭𝐫𝐚𝐓𝐚𝐆𝐆𝐞𝐑**, 𝙶𝚛𝚞𝚙 𝚟𝚎𝚢𝚊 𝚔𝚊𝚗𝚊𝚕𝚍𝚊𝚔𝚒 𝚗𝚎𝚛𝚎𝚍𝚎𝚢𝚜𝚎 𝚝ü𝚖 ü𝚢𝚎𝚕𝚎𝚛𝚍𝚎𝚗 𝚋𝚊𝚑𝚜𝚎𝚍𝚎𝚋𝚒𝚕𝚒𝚛𝚒𝚖 ★\𝙳𝚊𝚑𝚊 𝚏𝚊𝚣𝚕𝚊 𝚋𝚒𝚕𝚐𝚒 𝚒ç𝚒𝚗 **/help**'𝚒 𝚝ı𝚔𝚕𝚊𝚢ı𝚗.",
+  await event.reply("[ᴇxᴛʀᴇᴍᴇ & ʜüᴋüᴍꜱüᴢʟᴇʀ ʙᴏᴛ], **Federasyonlarının Kanal Grup Bot Bilgilendirme Botudur.** /Grup /Kanal /Bot Komutlarını Kullanabilirsiniz.",
                     buttons=(
                       [Button.url('🌟 𝙱𝚎𝚗𝚒 𝙱𝚒𝚛 𝙶𝚛𝚞𝚋𝚊 𝙴𝚔𝚕𝚎', 'https://t.me/ExtraTaGGerbot?startgroup=a'),
                       Button.url('📣 𝙺𝚊𝚗𝚊𝚕', 'https://t.me/Extremekanallar'),
@@ -33,9 +33,31 @@ async def start(event):
                     ),
                     link_preview=False
                    )
-@client.on(events.NewMessage(pattern="^/help$"))
+@client.on(events.NewMessage(pattern="^/kanal$"))
 async def help(event):
-  helptext = "**𝐄𝐱𝐭𝐫𝐚𝐓𝐚𝐆𝐆𝐞𝐑 𝚋𝚘𝚝'𝚞𝚗 𝚈𝚊𝚛𝚍ı𝚖 𝙼𝚎𝚗ü𝚜ü* \ 𝚔𝚘𝚖𝚞𝚝: /𝚊𝚕𝚕 \ 𝙱𝚞 𝚔𝚘𝚖𝚞𝚝𝚞, 𝚋𝚊ş𝚔𝚊𝚕𝚊𝚛ı𝚗𝚊 𝚋𝚊𝚑𝚜𝚎𝚝𝚖𝚎𝚔 𝚒𝚜𝚝𝚎𝚍𝚒ğ𝚒𝚗𝚒𝚣 𝚖𝚎𝚝𝚒𝚗𝚕𝚎 𝚋𝚒𝚛𝚕𝚒𝚔𝚝𝚎 𝚔𝚞𝚕𝚕𝚊𝚗𝚊𝚋𝚒𝚕𝚒𝚛𝚜𝚒𝚗𝚒𝚣. \`Ö𝚛𝚗𝚎𝚔: /𝚊𝚕𝚕 𝙶ü𝚗𝚊𝚢𝚍ı𝚗!` \𝙱𝚞 𝚔𝚘𝚖𝚞𝚝𝚞 𝚢𝚊𝚗ı𝚝 𝚘𝚕𝚊𝚛𝚊𝚔 𝚔𝚞𝚕𝚕𝚊𝚗𝚊𝚋𝚒𝚕𝚒𝚛𝚜𝚒𝚗𝚒𝚣. 𝚑𝚎𝚛𝚑𝚊𝚗𝚐𝚒 𝚋𝚒𝚛 𝚖𝚎𝚜𝚊𝚓 𝙱𝚘𝚝, 𝚢𝚊𝚗ı𝚝𝚕𝚊𝚗𝚊𝚗 𝚒𝚕𝚎𝚝𝚒𝚢𝚎 𝚔𝚞𝚕𝚕𝚊𝚗ı𝚌ı𝚕𝚊𝚛ı 𝚎𝚝𝚒𝚔𝚎𝚝𝚕𝚎𝚢𝚎𝚌𝚎𝚔"
+  helptext = "[ᴇxᴛʀᴇᴍᴇ & ʜüᴋüᴍꜱüᴢʟᴇʀ ʙᴏᴛ], **Federasyonlarının Kanalları.**"
+  await event.reply(helptext,
+                    buttons=(
+                      [Button.url('🌟 𝙱𝚎𝚗𝚒 𝙱𝚒𝚛 𝙶𝚛𝚞𝚋𝚊 𝙴𝚔𝚕𝚎', 'https://t.me/ExtraTaGGerbot?startgroup=a'),
+                      Button.url('📣 𝙺𝚊𝚗𝚊𝚕', 'https://t.me/Extremekanallar'),
+                      Button.url('🚀 𝚂𝚊𝚑𝚒𝚋𝚒𝚖', 'https://t.me/OrmanCocuklariylaMucadele')]
+                    ),
+                    link_preview=False
+                   )
+@client.on(events.NewMessage(pattern="^/grup$"))
+async def help(event):
+  helptext = "[ᴇxᴛʀᴇᴍᴇ & ʜüᴋüᴍꜱüᴢʟᴇʀ ʙᴏᴛ], **Federasyonlarının Kanalları.**"
+  await event.reply(helptext,
+                    buttons=(
+                      [Button.url('🌟 𝙱𝚎𝚗𝚒 𝙱𝚒𝚛 𝙶𝚛𝚞𝚋𝚊 𝙴𝚔𝚕𝚎', 'https://t.me/ExtraTaGGerbot?startgroup=a'),
+                      Button.url('📣 𝙺𝚊𝚗𝚊𝚕', 'https://t.me/Extremekanallar'),
+                      Button.url('🚀 𝚂𝚊𝚑𝚒𝚋𝚒𝚖', 'https://t.me/OrmanCocuklariylaMucadele')]
+                    ),
+                    link_preview=False
+                   )
+@client.on(events.NewMessage(pattern="^/bot$"))
+async def help(event):
+  helptext = "[ᴇxᴛʀᴇᴍᴇ & ʜüᴋüᴍꜱüᴢʟᴇʀ ʙᴏᴛ], **Federasyonlarının Kanalları.**"
   await event.reply(helptext,
                     buttons=(
                       [Button.url('🌟 𝙱𝚎𝚗𝚒 𝙱𝚒𝚛 𝙶𝚛𝚞𝚋𝚊 𝙴𝚔𝚕𝚎', 'https://t.me/ExtraTaGGerbot?startgroup=a'),
