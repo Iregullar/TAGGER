@@ -41,7 +41,7 @@ async def help(event):
                     buttons=(
                       [Button.url('🔥 ᴇxᴛʀᴇᴍᴇ ꜰᴇᴅ', 'https://t.me/Extremekanallar'),
                       Button.url('⚔️ ᴇxᴛʀᴇᴍᴇ ʟɪɴᴋ ', 'https://t.me/ExtremeUcretliLink'),
-                      Button.url('💪 ᴇxᴛʀᴇᴍᴇ İᴄʀᴀᴀᴛ', 'https://t.me/OrmanCocuklariylaMucadele')]
+                      Button.url('💪 ᴇxᴛʀᴇᴍᴇ İᴄʀᴀᴀᴛ', 'https://t.me/OrmanCocuklariylaMucadele')],
                       [Button.url('💠 ʀᴇᴋʟᴀᴍ ᴋᴀɴᴀʟı', 'https://t.me/Platformreklam'),
                       Button.url('🎭 ʀᴇꜱɪᴍ ᴋᴀɴᴀʟı ', 'https://t.me/picttureprofil'),
                       Button.url('🛡 ʙᴏᴛ ᴋᴀɴᴀʟı', 'https://t.me/sohbetdestek')]
@@ -66,7 +66,7 @@ async def help(event):
                     buttons=(
                       [Button.url('🎶 ᴍüᴢɪᴋ + ꜰɪʟᴍ ʙᴏᴛ', 'https://t.me/Winampmuzikbot'),
                       Button.url('⚙️ ꜱᴇꜱꜱɪᴏɴ ʙᴏᴛ', 'https://t.me/Session_TR_bot'),
-                      Button.url('🎭 ᴇᴛɪᴋᴇᴛ ʙᴏᴛ', 'https://t.me/UserEtiketBot')]
+                      Button.url('🎭 ᴇᴛɪᴋᴇᴛ ʙᴏᴛ', 'https://t.me/UserEtiketBot')],
                       [Button.url('🎶 ᴍüᴢɪᴋ + ꜰɪʟᴍ 2', 'https://t.me/Movingmusicbot'),
                       Button.url('🛡 ғᴇᴅ ʙɪʟɢɪ ʙᴏᴛ', 'https://t.me/ExtremeHukumsuzlerFedBot'),
                       Button.url('🎭 ᴇᴛɪᴋᴇᴛ ʙᴏᴛ', 'https://t.me/LinaTagBot')]
